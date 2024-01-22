@@ -13,3 +13,9 @@ function getComputerChoice() {
 
 getComputerChoice();
 console.log(choice);
+
+let myChoice = prompt("What's your move?");
+console.log(myChoice);
+
+let userChoice = myChoice.toLowerCase();
+console.log(userChoice)
