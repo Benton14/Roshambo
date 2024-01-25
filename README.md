@@ -1,18 +1,29 @@
 # Roshambo
 
 Rock, Paper Scissors
+    
+    Play vs a Computer in a best of 5 roshammbo tournament
 
-computer selection
-    find random # 1-3
-    assign 1-3 to Rock, Paper, or Scissors
+Dev process:
 
-player selection
-    get input from prompt
-    case insensitive
+    comp selection
+        get a number 1-3,
+        assaign to a variable
+    
+    player selection
+        get prompt input
+        lower case player input
 
-round function
-    comp vs player selection
-    display player win/loss of round
+    roshambo
+        comp vs player function
+        display win, loss, or tie
+        display player & comp slections
 
-game funtion
-    best of 5 rounds w/ loop
+    best of 5 format
+        loop "round" funtion 5 times
+
+Reflection: 
+
+    comparing the computer selection to player selection was the most difficult part of the process. Attempted to compare the selections through a variety of ways, until landing upon the incredibly simple solution to "===" both inputs. Why wasn't this my first thought? 
+
+    Utilizing the for (loop), and learning how to select a random # from a changeable range seems very useful for future use.
