@@ -51,7 +51,13 @@ function round() {
         }
     }  
     console.log("Computer: " + compChoice);
-    console.log("You: " + myChoice);
+    console.log("Player: " + myChoice);
 }
 
-round();
+function game() {
+    for (i=0;i<=5;i++) {
+        round();
+    }
+}
+
+game();
