@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="style sheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
 </head>
 <body>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+    <header>
+        <h1>Roshambo!</h1>
+    </header>
+    
+    <div class="scoreboard">
+        <div id="user-label" class="badge">You</div>
+        <div class="score"><span id="user-score">0</span>:<span id="comp-score">0</span></div>
+        <div id="comp-label" class="badge">CPU</div>
+    </div>
+    
+    <div class="result">
+        <p>Good Luck</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="imgs/rock.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="imgs/paper.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="imgs/scissors.png" alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
 </body>
 </html>
